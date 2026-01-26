@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #050307;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("assets/ruby-promo.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 5rem;
+  letter-spacing: 0.2em;
+  color: #ff2b2b;
+  text-shadow: 0 0 30px rgba(255,0,0,0.6);
+}
+
+.subtitle {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: #f0c080;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 0 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.primary {
+  background: linear-gradient(135deg,#ff2b2b,#a80000);
+  color: #fff;
+}
+
+.primary:hover {
+  transform: scale(1.05);
+}
+
+.secondary {
+  border: 2px solid #ff2b2b;
+  color: #ff2b2b;
+}
+
+.secondary:hover {
+  background: #ff2b2b;
+  color: #000;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 10%;
+  gap: 40px;
+}
+
+.box {
+  flex: 1;
+  min-width: 280px;
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.box h2 {
+  margin-bottom: 15px;
+  color: #ff2b2b;
+}
+
+.box ul {
+  list-style: none;
+}
+
+.box li {
+  margin-bottom: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
