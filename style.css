@@ -111,3 +111,20 @@ footer {
   padding: 20px;
   color: #888;
 }
+.presentation {
+  padding: 80px 20px;
+  background: #050307;
+  text-align: center;
+}
+
+.presentation h2 {
+  color: #ff2b2b;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.presentation p {
+  color: #ddd;
+  font-size: 18px;
+  line-height: 1.6;
+}
